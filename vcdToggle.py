@@ -53,7 +53,7 @@ class VCD(object):
                     elif zero2one:
                         uponly +=1
                         covered = 'FAIL0'
-                    elif stats.one2zero:
+                    elif one2zero:
                         downonly +=1
                         covered = 'FAIL1'
                     else:
